@@ -12,10 +12,11 @@ export class DataBindingComponent implements OnInit {
   urlImagem = 'https://loremflickr.com/320/240';
   valorAtual: string = "";
   valorSalvo: string = "";
-  isMouseOver: boolean = false;
-  
+  isMouseOver: boolean = false;  
   nome: string = "abc";
-  
+
+  nomeDoCurso: string = "Angular"
+
   pessoa: any = {
     nome: 'def',
     idade: 20
